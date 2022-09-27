@@ -1,0 +1,5 @@
+show databases;
+use convertor;
+create table feedback(name varchar(10),area varchar(15),feedback varchar(50));
+select * from feedback;
+desc feedback;
